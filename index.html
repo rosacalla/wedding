@@ -36,6 +36,9 @@ body {
   height: 100%;
   opacity: 0;
   transition: opacity 0.4s ease-in-out;
+  background-size: contain; /* Changed from cover to contain */
+  background-position: center; /* Ensures the image is centered */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
 .slide.current {
@@ -45,53 +48,53 @@ body {
 
 .slide:first-child {
   background: url("1.png.jpg") no-repeat
-    center top/cover;
+  /* center top/cover; */
 }
 
 .slide:nth-child(2) {
   background: url("2.png.jpg") no-repeat
-    center top/cover;
+  /*  center top/cover;  */
 }
 
 .slide:nth-child(3) {
   background: url("3.png.jpg") no-repeat
-    center top/cover;
+  /*  center top/cover;*/
 }
 .slide:nth-child(4) {
   background: url("4.png.jpg") no-repeat
-    center top/cover;
+   /* center top/cover;*/
 }
 .slide:nth-child(5) {
   background: url("5.png.jpg") no-repeat
-    center top/cover;
+ /*   center top/cover;*/
 }
   .slide:nth-child(6) {
   background: url("6.png.jpg") no-repeat
-    center top/cover;
+   /* center top/cover;*/
 }
 .slide:nth-child(7) {
   background: url("7.png.jpg") no-repeat
-    center top/cover;
+   /* center top/cover;*/
 }
 .slide:nth-child(8) {
   background: url("8.png.jpg") no-repeat
-    center top/cover;
+  /*  center top/cover;*/
 }
 .slide:nth-child(9) {
   background: url("9.png.jpg") no-repeat
-    center top/cover;
+  /* center top/cover;*/
 }
   .slide:nth-child(10) {
   background: url("10.png.jpg") no-repeat
-    center top/cover;
+   /* center top/cover;*/
 }
   .slide:nth-child(11) {
   background: url("11.png.jpg") no-repeat
-    center top/cover;
+  /*  center top/cover;*/
 }
   .slide:nth-child(12) {
   background: url("12.png.jpg") no-repeat
-    center top/cover;
+  /*  center top/cover;*/
 
 }  
 .buttons button#prev {
